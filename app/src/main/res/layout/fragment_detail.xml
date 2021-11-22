@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Personaje"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Jon Snow"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/labelTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Lord Comandante de la Guardia Nocturna"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/labelBorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="283 A.C."
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/labelActor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Kit Harington"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/labelQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="''I know nothing''"
+        android:textStyle="italic"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/labelParents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Ned Stark"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/labelSpouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Sin esposa"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="CASA STARK"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/imgCharacter"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/test"
+        android:scaleType="centerCrop"
+        />
+
+    <View
+        android:id="@+id/imgOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/targaryenOVerlay" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/labelName"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_above="@+id/labelTitle"
+        android:layout_centerHorizontal="true"
+        tools:text="Personaje 1" />
+
+    <TextView
+        android:id="@+id/labelTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        tools:text="Caballero" />
+
+</RelativeLayout>
